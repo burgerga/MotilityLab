@@ -16,3 +16,25 @@ test_that("Tracks are loaded correctly", {
 test_that("Tracks have correct structure", {
   expect_equal(class(tracks.from.df[[1]]), "matrix")
 })
+
+test_that("scale.t argument works", {
+  scale.t <- 0.1
+  tracks.from.csv.scale.t <-
+    read.tracks.csv('ref_tracks_blank_line_sep.csv', sep = ',',
+                    track.sep.blankline = T,
+                    time.column = 1, pos.columns = c(2:4), scale.t = scale.t)
+  ref.df <- as.data.frame(ref)
+  ref.df$t <- ref.df$t * scale.t
+  expect_equivalent(tracks.from.csv.scale.t, as.tracks(ref.df))
+})
+
+test_that("scale.pos argument works", {
+  scale.pos <- 0.1
+  tracks.from.csv.scale.pos <-
+    read.tracks.csv('ref_tracks_blank_line_sep.csv', sep = ',',
+                    track.sep.blankline = T,
+                    time.column = 1, pos.columns = c(2:4), scale.pos = scale.pos)
+  ref.df <- as.data.frame(ref)
+  ref.df[,-c(1,2)] <- scale.pos * ref.df[,-c(1,2)]
+  expect_equivalent(tracks.from.csv.scale.pos, as.tracks(ref.df))
+})
