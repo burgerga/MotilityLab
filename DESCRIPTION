@@ -12,6 +12,7 @@ Description: Statistics to quantify tracks of moving things (x-y-z-t data),
 LazyData: true
 License: GPL-2
 URL: http://www.motilitylab.net
+BugReports: https://github.com/jtextor/MotilityLab/issues
 Depends:
     R (>= 3.0.0)
 Imports:
