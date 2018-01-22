@@ -33,4 +33,3 @@ function provides a means for quality control with respect to the tracking time.
 d <- timeStep( TCells )
 plot( sapply( subtracks( TCells, 1 ) , duration ) - d, ylim=c(-d,d) ) 
 }
-

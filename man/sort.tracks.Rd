@@ -26,4 +26,3 @@ Sorts the positions in each track in a \emph{tracks} object by time.
 Sorts the positions of each track (represented as a data frame) in the 
 \emph{tracks} object by time (given in the column t).
 }
-

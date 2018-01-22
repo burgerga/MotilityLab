@@ -14,4 +14,3 @@
 \description{
 Coerces a \code{tracks} object to a list.
 }
-

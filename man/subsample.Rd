@@ -24,4 +24,3 @@ plot( subsample( TCells, 3 ), col=2, add=TRUE, pch.start=NULL )
 \code{interpolateTrack}, which can be used for more flexible track 
 coarse-graining.
 }
-

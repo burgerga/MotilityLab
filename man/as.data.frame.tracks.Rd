@@ -5,7 +5,7 @@
 \title{Convert Tracks to Data Frame}
 \usage{
 \method{as.data.frame}{tracks}(x, row.names = NULL, optional = FALSE,
-  include.timepoint.column = FALSE, ...)
+  include.timepoint.column = FALSE, idsAsFactors = TRUE, ...)
 }
 \arguments{
 \item{x}{the \code{tracks} object to be coerced to a data frame.}
@@ -22,6 +22,9 @@ dataframe will contain a column that consecutively numbers the positions accordi
 to their time. Note that this information is anyway implicitly present in the time 
 information.}
 
+\item{idsAsFactors}{logical. If \code{TRUE}, then the id column of the resulting
+dataframe will be a factor column, otherwise a characeter column.}
+
 \item{...}{further arguments to be passed from or to other methods.}
 }
 \value{
@@ -37,4 +40,3 @@ single dataframe which is convenient for plotting or saving the data.
 ## Display overall average position of the T cell data
 colMeans( as.data.frame( TCells )[-c(1,2)] )
 }
-

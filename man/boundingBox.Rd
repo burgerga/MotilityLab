@@ -26,4 +26,3 @@ plot( Neutrophils, xlim=bb[,"x"], ylim=bb[,"y"], col=1 )
 plot( BCells, col=2, add=TRUE )
 plot( TCells, col=3, add=TRUE )
 }
-

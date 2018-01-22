@@ -37,4 +37,8 @@ test_that("scale.pos argument works", {
   ref.df <- as.data.frame(ref)
   ref.df[,-c(1,2)] <- scale.pos * ref.df[,-c(1,2)]
   expect_equivalent(tracks.from.csv.scale.pos, as.tracks(ref.df))
+
+test_that("Can choose strings or factors when converting to data frame", {
+	expect_equal(class(as.data.frame.tracks(TCells,idsAsFactors=TRUE)[,"id"]),"factor")
+	expect_equal(class(as.data.frame.tracks(TCells,idsAsFactors=FALSE)[,"id"]),"character")
 })

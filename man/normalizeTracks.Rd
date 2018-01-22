@@ -17,4 +17,3 @@ first position is the origin.
 ## normalization of Neutrophil data reveals upward motion
 plot( normalizeTracks( Neutrophils ) )
 }
-

@@ -32,4 +32,3 @@ for each track, use the function \code{\link{staggered}} together with
 \code{lapply}. Subtrack extraction always starts at the first position of the
 input track.
 }
-

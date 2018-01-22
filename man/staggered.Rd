@@ -34,4 +34,3 @@ and Marc Thilo Figge (2013), Automated Characterization and
 Parameter--Free Classification of Cell Tracks Based on Local Migration 
 Behavior. \emph{PLoS ONE} \bold{8}(12), e80808. doi:10.1371/journal.pone.0080808
 }
-

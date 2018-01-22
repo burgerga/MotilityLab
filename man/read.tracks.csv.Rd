@@ -77,4 +77,3 @@ tracks and having columns \eqn{t} and \eqn{x}, plus \eqn{y} and \eqn{z}, if
 necessary. The tracks' ids are retained in their position in the list, while
 the field \eqn{pos} will be unmaintained.
 }
-

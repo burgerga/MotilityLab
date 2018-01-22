@@ -114,4 +114,3 @@ Joost B. Beltman, Athanasius F.M. Maree and Rob. J. de Boer (2009),
 Analysing immune cell migration. \emph{Nature Reviews Immunology} \bold{9},
 789--798. doi:10.1038/nri2638
 }
-

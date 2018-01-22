@@ -47,4 +47,3 @@ to \code{TRUE}.
 \seealso{
 \code{\link{plot3d}}
 }
-

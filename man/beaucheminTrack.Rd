@@ -76,4 +76,3 @@ Johannes Textor, Mathieu Sinn and Rob J. de Boer (2013), Analytical results on t
 Beauchemin model of lymphocyte migration. \emph{BMC Bioinformatics} \bold{14}(Suppl 6), S10.
 doi:10.1186/1471-2105-14-S6-S10
 }
-

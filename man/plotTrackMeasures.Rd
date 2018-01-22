@@ -68,4 +68,3 @@ Random Migration and Signal Integration Promote Rapid and Robust T Cell Recruitm
 \emph{PLoS Computational Biology} \bold{10}(8), e1003752.
 doi:10.1371/journal.pcbi.1003752
 }
-

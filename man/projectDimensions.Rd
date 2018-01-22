@@ -26,4 +26,3 @@ speed.2D <- mean( sapply( subtracks( projectDimensions( TCells, c("x","z") ), 2 
 speed.3D <- mean( sapply( TCells, speed ) )
 
 }
-

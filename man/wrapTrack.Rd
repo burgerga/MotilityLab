@@ -16,4 +16,3 @@ is assigned the name "1".
 \description{
 Makes a \code{tracks} object containing the given track.
 }
-

@@ -25,4 +25,3 @@ Extracts subtracks based on a given function.
 ## Remove short tracks from the T cells data
 plot( filterTracks( function(t) nrow(t)>10, TCells ) )
 }
-

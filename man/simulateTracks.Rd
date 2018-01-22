@@ -24,4 +24,3 @@ object. Basically, this works like \code{\link{replicate}} but for tracks.
 ## distributed increments and plot them
 plot( simulateTracks( 10, brownianTrack(100,3) ) )
 }
-

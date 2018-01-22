@@ -45,4 +45,3 @@ plot( clust )
 sum( real.celltype == c("T","N")[cutree(clust,2)] )
 
 }
-

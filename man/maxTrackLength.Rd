@@ -15,4 +15,3 @@ The maximum number of rows of a track in \code{x}
 \description{
 Determines the maximum number of positions over the tracks in \code{x}.
 }
-

@@ -21,4 +21,3 @@ if( require("scatterplot3d",quietly=TRUE) ){
   plot3d( TCells )
 }
 }
-

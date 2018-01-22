@@ -20,4 +20,3 @@ with `i` segments (i.e., `i`+1 positions).
 This function behaves exactly like \code{\link{subtracks}} except
 that only subtracks starting from the first position are considered.
 }
-

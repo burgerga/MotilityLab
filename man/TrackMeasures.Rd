@@ -2,22 +2,22 @@
 % Please edit documentation in R/track-measures.R
 \name{TrackMeasures}
 \alias{TrackMeasures}
-\alias{asphericity}
-\alias{displacement}
-\alias{displacementRatio}
-\alias{displacementVector}
-\alias{duration}
-\alias{fractalDimension}
-\alias{hurstExponent}
-\alias{maxDisplacement}
-\alias{meanTurningAngle}
-\alias{outreachRatio}
-\alias{overallAngle}
-\alias{overallDot}
-\alias{speed}
-\alias{squareDisplacement}
-\alias{straightness}
 \alias{trackLength}
+\alias{duration}
+\alias{speed}
+\alias{displacement}
+\alias{squareDisplacement}
+\alias{displacementVector}
+\alias{maxDisplacement}
+\alias{displacementRatio}
+\alias{outreachRatio}
+\alias{straightness}
+\alias{overallAngle}
+\alias{meanTurningAngle}
+\alias{overallDot}
+\alias{asphericity}
+\alias{hurstExponent}
+\alias{fractalDimension}
 \title{Track Measures}
 \usage{
 trackLength(x)
@@ -162,4 +162,3 @@ Tillmann Gneiting and Martin Schlather (2004), Stochastic Models That Separate F
 Dimension and the Hurst Effect. \emph{SIAM Review} \bold{46}(2), 269--282. 
 doi:10.1137/S0036144501394387
 }
-

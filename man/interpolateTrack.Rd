@@ -27,4 +27,3 @@ plot( TCells[2] )
 t2i <- interpolateTrack(TCells[[2]], seq(bb[1,"t"],bb[2,"t"],length.out=100),"spline")
 plot( tracks( t2i ), add=TRUE, col=2 )
 }
-

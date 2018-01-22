@@ -51,4 +51,3 @@ this is exactly the main diagonal) are set to \code{NA}.
 ## subtracks of the first T cell track
 applyStaggered(TCells[[1]], overallAngle, matrix=TRUE, min.segments = 2)
 }
-

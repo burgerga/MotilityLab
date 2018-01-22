@@ -22,4 +22,3 @@ input track.
 ## for the motion's efficiency
 sapply(TCells, normalizeToDuration(displacement))
 }
-

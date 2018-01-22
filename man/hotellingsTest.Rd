@@ -64,4 +64,3 @@ Johannes Textor, Antonio Peixoto, Sarah E. Henrickson, Mathieu
 Defining the Quantitative Limits of Intravital Two-Photon Lymphocyte Tracking.
 \emph{PNAS} \bold{108}(30):12401--12406. doi:10.1073/pnas.1102288108
 }
-

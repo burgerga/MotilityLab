@@ -47,4 +47,3 @@ The names or indices of these columns in the data.frame are given using the
 corresponding parameters (see below). Names and indices can be mixed, e.g. you can
 specify \code{id.column="Parent"} and \code{pos.columns=1:3}
 }
-

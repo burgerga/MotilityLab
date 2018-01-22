@@ -31,4 +31,3 @@ In in every step an for each dimension, a normally distributed
 value with mean \code{mean} and standard deviation \code{sd} is 
 added to the previous cell position.
 }
-
